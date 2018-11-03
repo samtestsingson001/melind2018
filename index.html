@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="1.mp3" cover="cover1.jpg" artist="Megan Trainor feat John Legend">Like I'm gonna lose you.mp3</li>
+			<li song="2.mp3" cover="cover1.jpg" artist="Lukas Graham">Love someone.mp3</li>
+			<li song="3.mp3" cover="cover1.jpg" artist="Kay Lei">No apologies.mp3</li>
+			<li song="4.mp3" cover="cover1.jpg" artist="David Guerra feat Anne Marie">Don't leave me alone.mp3</li>
+			<li song="5.mp3" cover="cover1.jpg" artist="DVSN">Morning after.mp3</li>
+			<li song="6.mp3" cover="cover1.jpg" artist="Drew Barrymore feat Wale">Bryce wine.mp3</li>
+			<li song="7.mp3" cover="cover1.jpg" artist="The Chain Smokers">The one</li>
+			<li song="8.mp3" cover="cover1.jpg" artist="Maren Moris">I could use a love song.mp3</li>
+			<li song="9.mp3" cover="cover1.jpg" artist="The Script">Rain.mp3</li>
+			<li song="10.mp3" cover="cover1.jpg" artist="Van Morrison">Come here my love.mp3</li>
+			<li song="11.mp3" cover="cover1.jpg" artist="The Bonfyre">Propane.mp3</li>
+			<li song="12.mp3" cover="cover1.jpg" artist="Brandi Carlile">Turpentine.mp3</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
